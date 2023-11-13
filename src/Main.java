@@ -5,6 +5,7 @@ public class Main {
         Author author2 = new Author("Лев",  "Толстой");
         Book book1 = new Book ("Сказка о рыбаке и рыбке", author1, 1833);
         Book book2 = new Book ("Война и мир", author2, 1867);
+        Book book3 = new Book ("Сказка о рыбаке и рыбке", author1, 1833);
 
 
         System.out.println("Название книги: " + book1.getTitle());
@@ -17,6 +18,10 @@ public class Main {
 
         book2.setYear(1869);
         System.out.println("Год публикации - " + book2.getYear());
+
+
+        System.out.println();
+        System.out.println(book1);
 
 
     }
