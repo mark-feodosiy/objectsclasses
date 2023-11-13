@@ -23,7 +23,9 @@ public class Main {
         System.out.println();
         System.out.println(book1);
 
-
+        System.out.println(book1.hashCode());
+        System.out.println(book2.hashCode());
+        System.out.println(book3.hashCode());
     }
 }
 
