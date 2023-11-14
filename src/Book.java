@@ -1,8 +1,8 @@
 import java.util.Objects;
 
 public class Book {
-    String title;
-    Author author;
+    private String title;
+    private Author author;
     int year;
 
     public Book (String title, Author author, int year) {
